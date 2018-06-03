@@ -1,1 +1,1 @@
-Hello, you surly bastards! This is the pipeline-as-code example. 
+Hello, you surly bastards! This is the pipeline-as-code example. Version 2
