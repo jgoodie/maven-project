@@ -18,6 +18,7 @@ pipeline {
 	stage('Deploy to Staging'){
 		steps{
 			build job: 'deploy-maven-to-stage'	
+			echo 'Deploy to stage complete'
 		}
 	}
         stage ('deploy-to-prod'){
@@ -27,6 +28,7 @@ pipeline {
                 }
 
                 build job: 'deploy-to-prod'
+		echo 'Deploy to pord complete'
             }
             post {
                 success {
